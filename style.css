@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar .navbar-nav li a { 
+color: white; 
+opacity: 0.5; 
+font-size: 25px;
+margin: 9px;
+} 
+
+
+.navbar-brand {
+font-size: 32px; 
+font-weight: 10; 
+}
+
+.hero{
+height:50vh;
+display:flex;
+align-items:center;
+justify-content:center;
+background:linear-gradient(#0d6efd,#6610f2);
+color:white;
+padding-top:70px;
+}
+.hero h1{
+font-size:55px;
+font-weight:700;
+letter-spacing:1px;
+}
+
+.hero p{
+font-size:20px;
+font-weight:300;
+}
+
+.name{
+color:#ffd700;
+}
+
+
+
+
+
+.card{
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+footer{
+background:#111;
+color:white;
+}
+
+#topBtn{
+position:fixed;
+bottom:20px;
+right:20px;
+display:none;
+background:#0d6efd;
+color:white;
+border:none;
+padding:10px 15px;
+font-size:18px;
+border-radius:5px;
+cursor:pointer;
+}
+ /* Light Mode  */
+
+body{
+background:#ffffff;
+color:#222;
+transition:0.3s;
+}
+
+.navbar{
+transition:0.3s;
+}
+.skill-box{
+    background:white;
+color:black;
+}
+.card{
+background:white;
+color:#222;
+transition:0.3s;
+}
+/*  Dark Mode */
+
+.dark-mode{
+background:#121212;
+color:white;
+}
+
+.dark-mode .card{
+ background:rgb(175, 101, 101);
+ color:white;
+}
+
+.dark-mode section{
+background:#121212;
+color:white;
+}
+.dark-mode .skill-box{
+    background:rgb(175, 101, 101);
+color: black;
+}
+.dark-mode h2{
+    color:rgb(175, 101, 101);;
+}
+.dark-mode footer{
+background:#000;
+}
+
+
+
+.card{
+    max-width: 400px;
+    font-size: 20px;
+} 
+body{
+transition:0.3s;
+font-family: 'Poppins', sans-serif;
+}
+
+
+.hero{
+height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+background:linear-gradient(135deg,#480c96,#7033d2);
+color:white;
+}
+.about{
+height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+background:linear-gradient(135deg,#480c96,#7033d2);
+color:white;
+}
+
+.logo-img {
+    width: 150px;      
+}
+
+.skill-box{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+.skill-box:hover{
+transform:scale(1.1);
+}
+
+#topBtn{
+position:fixed;
+bottom:20px;
+right:20px;
+display:none;
+background:#0d6efd;
+color:white;
+border:none;
+padding:10px 15px;
+font-size:18px;
+border-radius:5px;
+cursor:pointer;
+}
+.about{
+    height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+background:linear-gradient(135deg,#480c96,#7033d2);
+color:white;
+} */
