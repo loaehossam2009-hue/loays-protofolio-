@@ -55,10 +55,10 @@ portfolio/
 ├── contact.html
 │
 ├── css/
-│   └── style.css
+│   └──style.css / bootstrab.min.css
 │
 ├── js/
-│   └── script.js
+│   └── script.js / bootstrap.bundle.min.js
 │
 └── README.md
 
