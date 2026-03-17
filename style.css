@@ -71,6 +71,26 @@ font-size:18px;
 border-radius:5px;
 cursor:pointer;
 }
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 100px auto;
+    gap: 10px;
+    padding: 30px;
+}
+
+
+input,
+textarea,
+button{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
  /* Light Mode  */
 
 body{
@@ -90,6 +110,11 @@ color:black;
 background:white;
 color:#222;
 transition:0.3s;
+}
+
+.btn_form{
+    color: white;
+    background-color: black;
 }
 /*  Dark Mode */
 
@@ -117,7 +142,10 @@ color: black;
 .dark-mode footer{
 background:#000;
 }
-
+.dark-mode btn_form{
+    color: black;
+    background-color: white;
+}
 
 
 .card{
@@ -176,24 +204,3 @@ color:white;
 } 
 
 
-form{
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    margin: 100px auto;
-    gap: 10px;
-    padding: 30px;
-}
-
-
-input,
-textarea,
-button{
-    padding: 15px;
-    border-radius: 5px;
-    border: none;
-}
-.btn_form{
-    color: white;
-    background-color: black;
-}
