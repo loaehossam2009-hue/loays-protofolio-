@@ -1,4 +1,40 @@
+let skills = ["HTML", "CSS", "JavaScript", "Bootstrap", "tailwind" , "pythons"];
 
+let i = 0;
+let j = 0; 
+let currentSkill = "";
+let isDeleting = false;
+
+function typeEffect() {
+
+if (i >= skills.length) i = 0;
+
+currentSkill = skills[i];
+
+if (isDeleting) {
+    j--;
+} else {
+    j++;
+}
+
+document.getElementById("skills").textContent = currentSkill.substring(0, j);
+
+if (!isDeleting && j === currentSkill.length) {
+    isDeleting = true;
+    setTimeout(typeEffect, 1000);
+    return;
+}
+
+if (isDeleting && j === 0) {
+    isDeleting = false;
+    i++;
+}
+
+setTimeout(typeEffect, isDeleting ? 50 : 100);
+
+}
+
+typeEffect();
 
 
 
