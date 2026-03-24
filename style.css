@@ -43,12 +43,11 @@ color:#ffd700;
 
 
 
-.card{
-    margin-bottom: 20px;
-}
 
 .card{
 transition:0.3s;
+margin-bottom: 20px;
+
 }
 
 .card:hover{
