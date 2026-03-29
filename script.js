@@ -53,7 +53,7 @@ document.body.classList.toggle("dark-mode")
 
 }
 
-let skills = ["HTML", "CSS", "JavaScript", "Bootstrap", "tailwind" , "python"];
+let skills = ["my name is loay hossam","i am learned","HTML", "CSS", "JavaScript", "Bootstrap", "tailwind" , "python"];
 
 let i = 0;
 let j = 0; 
