@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Loai Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link href="bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+
+<a href="index.html" class="navbar-brand">
+    <img src="1772893858802.png" class="logo-img" style="height:40px;">
+</a>
+
+<button 
+class="navbar-toggler" 
+type="button" 
+data-bs-toggle="collapse" 
+data-bs-target="#navbarNav">
+
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarNav">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link active" href="index.html">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="about.html">About</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="projects.html">Projects</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="contact.html">Contact</a>
+</li>
+
+</ul>
+
+<button id="modeToggle" class="btn btn-outline-light ms-3">🌙</button>
+</div>
+
+</div>
+</nav>
+
+
+    <section class="container py-5">
+
+<h2 class="text-center mb-4">Contact Me</h2>
+
+<form onsubmit="return erhandler()" class="col-md-6 mx-auto">
+
+<input type="text" name="name" class="form-control mb-3" placeholder="Your Name" id="name">
+<input type="text" name="email" class="form-control mb-3" placeholder="email" id="email">
+<input type="text" name="subject" class="form-control mb-3" placeholder="subject" id="subject">
+<textarea name="message" id="message" cols="20" rows="3" placeholder="message"></textarea>
+<button type="submit" class="btn_form"  >send message</button>
+</form>
+
+
+<div class="social-buttons text-center mt-4">
+
+<!-- WhatsApp -->
+<a href="https://web.whatsapp.com/" target="_blank" class="btn social-btn whatsapp">
+    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+</a>
+
+<!-- Instagram -->
+<a href="https://instagram.com/your_username" target="_blank" class="btn social-btn instagram">
+    <i class="fa-brands fa-instagram"></i> Instagram
+</a>
+
+<!-- Messenger -->
+<a href="https://m.me/your_username" target="_blank" class="btn social-btn messenger">
+    <i class="fa-brands fa-facebook-messenger"></i> Messenger
+</a>
+<!-- facebook -->
+<a href="https://www.facebook.com/loay.hossam.9889?locale=ar_AR" target="_blank" class="btn social-btn messenger">
+    <i class="fa-brands fa-facebook"></i>     facebook
+</a>
+
+</div>
+
+
+
+
+
+</section>
+
+
+
+<!-- Footer -->
+
+
+<section>
+    <!-- Footer -->
+<footer class="footer">
+
+<div class="container">
+
+<div class="row text-center text-md-start">
+
+<!-- About -->
+<div class="col-md-4 mb-3">
+    <h4>Loai Hossam</h4>
+    <p>Frontend Developer passionate about building modern and responsive websites.</p>
+</div>
+
+<!-- Links -->
+<div class="col-md-4 mb-3">
+    <h5>Quick Links</h5>
+    <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+
+<!-- Social -->
+<div class="col-md-4 mb-3">
+    <h5>Follow Me</h5>
+    <div class="social-icons">
+
+        <a href="https://web.whatsapp.com/" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+
+        <a href="https://www.instagram.com/loaehossam2009/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://www.messenger.com/e2ee/t/24300397116215771" target="_blank">
+            <i class="fa-brands fa-facebook-messenger"></i>
+        </a>
+        <a href="https://www.facebook.com/loay.hossam.9889?locale=ar_AR" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+
+    </div>
+</div>
+
+</div>
+
+<hr>
+
+<p class="text-center">© 2026 Loay Hossam | We School for Applied Technology zayed</p>
+
+</div>
+
+</footer>
+</section>
+<script src="script.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
